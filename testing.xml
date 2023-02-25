@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Main Flow" >
+    <test name="flow1">
+        <classes>
+            <class name="HomePageTest"></class>
+
+
+        </classes>
+    </test>
+    <test name="flow2">
+        <classes>
+            <class name="OutdoorPageTest"></class>
+        </classes>
+    </test>
+    <test name="flow3">
+        <classes>
+            <class name="JoinWithEmail"></class>
+        </classes>
+    </test>
+    <test name="flow4">
+        <classes>
+            <class name="searchTestpage"></class>
+        </classes>
+    </test>
+
+
+</suite>
